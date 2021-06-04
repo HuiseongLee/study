@@ -14,3 +14,5 @@ class Config(object):
     ADMINS = ['huiseong.lee@vuno.co']
     POSTS_PER_PAGE = 3
     LANGUAGES = ['en', 'ko']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
+    MS_TRANSLATOR_LOCATION = os.environ.get('MS_TRANSLATOR_LOCATION')
