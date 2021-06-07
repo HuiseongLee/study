@@ -16,7 +16,8 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['huiseong.lee@vuno.co']
-    POSTS_PER_PAGE = 3
+    POSTS_PER_PAGE = 10
     LANGUAGES = ['en', 'ko']
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     MS_TRANSLATOR_LOCATION = os.environ.get('MS_TRANSLATOR_LOCATION')
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
