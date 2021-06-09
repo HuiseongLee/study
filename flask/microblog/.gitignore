@@ -4,3 +4,4 @@ tags
 .vscode/
 logs/
 .vagrant/
+venv/
