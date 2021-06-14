@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-14 14:22+0900\n"
+"POT-Creation-Date: 2021-06-14 16:15+0900\n"
 "PO-Revision-Date: 2021-06-03 17:01+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: app/__init__.py:20
+#: app/__init__.py:22
 msgid "Please log in to access this page."
 msgstr "먼저 로그인해 주세요."
 
@@ -159,14 +159,22 @@ msgstr "자신을 언팔로우할수는 없습니다!"
 msgid "You are not following %(username)s."
 msgstr "%(username)s를 팔로우하고 있지않습니다."
 
-#: app/main/routes.py:170
+#: app/main/routes.py:171
 #, fuzzy
 msgid "Your message has been sent."
 msgstr "암호가 변경되었습니다."
 
-#: app/main/routes.py:172
+#: app/main/routes.py:173
 msgid "Send Message"
-msgstr ""
+msgstr "메시지 보내기"
+
+#: app/main/routes.py:209
+msgid "An export task is currently in progress"
+msgstr "태스크가 이미 수행중입니다"
+
+#: app/main/routes.py:211
+msgid "Exporting posts..."
+msgstr "포스트를 내보내는 중..."
 
 #: app/templates/_post.html:16
 #, python-format
@@ -189,15 +197,15 @@ msgstr "로그인"
 msgid "Messages"
 msgstr "메시지"
 
-#: app/templates/base.html:42
+#: app/templates/base.html:48
 msgid "Profile"
 msgstr "프로필"
 
-#: app/templates/base.html:43
+#: app/templates/base.html:49
 msgid "Logout"
 msgstr "로그아웃"
 
-#: app/templates/base.html:79
+#: app/templates/base.html:97
 msgid "Error: Could not contact server."
 msgstr "에러: 서버에 접근하지 못했습니다."
 
@@ -253,7 +261,11 @@ msgstr "%(count)d 팔로우"
 msgid "Edit your profile"
 msgstr "프로필 수정"
 
-#: app/templates/user.html:34
+#: app/templates/user.html:19
+msgid "Export your posts"
+msgstr "당신의 포스트를 내보내기"
+
+#: app/templates/user.html:41
 msgid "Send private message"
 msgstr "메시지 보내기"
 
