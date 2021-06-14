@@ -5,3 +5,4 @@ tags
 logs/
 .vagrant/
 venv/
+app.db
