@@ -6,3 +6,4 @@ logs/
 .vagrant/
 venv/
 app.db
+dump.rdb
