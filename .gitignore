@@ -128,4 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-celery/
+cscope.*
+tags
+.vscode/
+logs/
+.vagrant/
+venv/
+app.db
+dump.rdb

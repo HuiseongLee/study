@@ -1,9 +1,0 @@
-# created by virtualenv automatically
-cscope.*
-tags
-.vscode/
-logs/
-.vagrant/
-venv/
-app.db
-dump.rdb
