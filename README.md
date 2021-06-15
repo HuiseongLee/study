@@ -1,7 +1,1 @@
-# study
-
-* flask
-* docker
-* PostgreSQL
-* reactjs
-* ...
+# study flask
